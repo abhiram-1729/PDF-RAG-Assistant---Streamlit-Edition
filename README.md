@@ -1,6 +1,6 @@
-# 🤖 Personal Notes RAG Assistant with Gemini Pro
+# 📄 PDF RAG Assistant - Streamlit Edition
 
-A powerful **Retrieval-Augmented Generation (RAG)** application that transforms your PDF notes into an intelligent question-answering system powered by Google's Gemini API.
+A professional **Retrieval-Augmented Generation (RAG)** web application built with Streamlit that transforms your PDF documents into an intelligent question-answering system powered by Google's Gemini API, with semantic search powered by FAISS and SentenceTransformers.
 
 ## Features
 
@@ -49,8 +49,8 @@ Generated Answer (Based ONLY on your notes)
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/rag-notes-assistant.git
-   cd rag-notes-assistant
+   git clone https://github.com/yourusername/pdf-rag-assistant-streamlit.git
+   cd pdf-rag-assistant-streamlit
    ```
 
 2. **Install dependencies**
@@ -209,4 +209,8 @@ For issues, questions, or suggestions, please open a GitHub issue.
 
 ---
 
-**Built with ❤️ using Streamlit, SentenceTransformers, FAISS, and Google Gemini Pro**
+**Built with ❤️ using:**
+- 🎨 **[Streamlit](https://streamlit.io/)** - Interactive web framework
+- 🧠 **[SentenceTransformers](https://www.sbert.net/)** - Text embeddings
+- 🔍 **[FAISS](https://github.com/facebookresearch/faiss)** - Vector similarity search
+- 🤖 **[Google Gemini](https://ai.google.dev/)** - Generative AI model

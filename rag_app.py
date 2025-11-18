@@ -16,8 +16,8 @@ load_dotenv()
 
 # Set page config
 st.set_page_config(
-    page_title="Personal Notes RAG Assistant",
-    page_icon="📚",
+    page_title="PDF RAG Assistant - Streamlit",
+    page_icon="📄",
     layout="wide"
 )
 
@@ -202,8 +202,8 @@ if not st.session_state.gemini_configured:
         st.session_state.gemini_auto_configured = True
 
 # UI Components
-st.title("🤖 Personal Notes RAG Assistant with Gemini Pro")
-st.markdown("**True RAG System: Retrieval → Augmentation with Gemini → Generation**")
+st.title("🤖 PDF RAG Assistant with Streamlit & Gemini")
+st.markdown("**Retrieval-Augmented Generation System: Powered by Streamlit, SentenceTransformers, FAISS & Google Gemini**")
 
 # Sidebar for configuration
 with st.sidebar:
